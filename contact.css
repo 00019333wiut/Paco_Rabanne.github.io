@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+/* NAVBAR SECTION STARTS */
+
+.container_nav{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+  
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links{
+    padding: 0px 35px;
+    color: black;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+
+
+.nav_links:hover{
+    border-bottom: 5px  solid#d8fff8;
+    
+}
+
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+.header_nav{
+    padding: 15px 0;
+    box-shadow: 0 0 7px 3px rgba(58, 31, 12, 0.35);
+    position: relative;
+}
+
+/* NAVBAR SECTION ENDS */
+
+.form{
+    margin-top: 50px;
+
+}
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    width: 100px;
+    margin: 0 auto;
+    padding:  10px 10px;
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  button:hover {
+    background-color: #d8fff8;
+    color: black;
+    box-shadow: 0 0 3px black;
+    transition: 0.5s;
+  }
+
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+
+
+  .form .container{
+   
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+  }
+
+  .form h2{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+ 
+
+  /* FOOTER SECTION START */
+
+.footer{
+    background-color: black;
+    padding: 40px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
+.footer_content{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content2{
+    max-width: 500px;
+   
+    }
+
+.content2 ul{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.footer_links i{
+    padding: 20px;
+    font-size: 25px
+}
+.content3{
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+/* FOOTER SECTION END */
+
+
+@media screen and (max-width: 600px) {
+    aside,
+    section,
+    article {
+      width: 100%;
+    }
+
+  }
